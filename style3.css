@@ -1,0 +1,83 @@
+.hhhhh{
+    background-color: #a8a8a8ad;
+    padding: 35px;
+}
+.hhhhh h2{
+    margin-top: 60px;
+    font-family: "JLR Proxima Nova","Arial Unicode","arial","helvetica",sans-serif;
+    letter-spacing: .351rem;
+    font-size: 25px;
+    text-align: center;
+}
+.hhhhh p{
+    margin-top:20px;
+    text-align: center;
+}
+.part2{
+    margin-top: 20px;
+}
+.container{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:auto;
+    width:100%;
+}
+.cars{
+    border: solid black 4px;
+    background-color: transparent;
+   margin-top: 35px;
+    height: auto;
+    width:23%;
+    background-color: rgb(229 229 229);
+}
+.carimg{
+    display: block;
+    width:100%;
+    height:240px;
+    border-bottom: black solid 4px;
+}
+.cars h2{
+    font-family: "JLR Proxima Nova","Arial Unicode","arial","helvetica",sans-serif;
+    letter-spacing: .351rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cars p{
+    font-family: "JLR Proxima Nova","Arial Unicode","arial","helvetica",sans-serif;
+    padding:7px;
+    color: rgb(99, 95, 95);
+}
+.carvideo{
+    display: block;
+    width:100%;
+    height:240px;
+    border-top: black solid 4px;
+}
+@media screen and (max-width:600px)
+{
+    *{
+        font-size:10px
+    }
+    .container{
+        height:auto;
+    width:80%;
+    }
+    .cars{
+        border: solid black 4px;
+        background-color: rgb(229 229 229);
+       margin-top: 60px;
+        height: auto;
+        width:90%;
+        margin-left: 15%;
+        font-size: 7px;
+    }
+   .carimg{
+       border-bottom: black solid 4px;
+    display: block;
+    width: 100%;
+    height:250px;
+   } 
+}
